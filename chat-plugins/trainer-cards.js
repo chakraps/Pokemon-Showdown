@@ -7097,4 +7097,9 @@ exports.commands = {
 			'Click <a href="https://docs.google.com/document/d/1OTP9JDz2Q6z6oFnvy2-jRH5o9XdFwZaJBU-ndRWpgIM/edit"> here </a>for rules and registering'
 		);
 	}
-};
+  syber: function (target, room, user) {
+                if (room.id !== 'lobby') if (!this.canBroadcast()) return;
+                this.sendReplyBox(' <center><img src=http://i.imgur.com/zDaQHL0.jpg?1><img src=http://i.imgur.com/L6Kisea.png?1> width: 16, height: 16<img src=http://i.imgur.com/YQzqptk.gif?1><br><b>Ace: </b>Scizor<br><b>Quote: </b>You call yourself a challenger but you are far from a challenge.</center>
+'
+                );
+        },
