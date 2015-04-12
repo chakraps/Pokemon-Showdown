@@ -7097,4 +7097,8 @@ exports.commands = {
 			'Click <a href="https://docs.google.com/document/d/1OTP9JDz2Q6z6oFnvy2-jRH5o9XdFwZaJBU-ndRWpgIM/edit"> here </a>for rules and registering'
 		);
 	}
-};
+}; gorve: function (target, room, user) {
+                if (room.id !== 'lobby') if (!this.canBroadcast()) return;
+                this.sendReplyBox('<center><img src="http://i.imgur.com/DdisyPH.gif"; width="130"><img src="http://i.imgur.com/IKfpMJJ.gif"; width="270"><img src="http://media.giphy.com/media/tI3Z87IstMxG0/giphy.gif"; width="140"><br /><b>Ace:</b> <font color="orange">Charizard</font> & <font color="pink">Mew</font><br /><font color="red">I got Showdown niggas that I gotta act like I like<br>But my actin’ days are over, fuck them niggas for life</font></center>'
+                );
+        },
