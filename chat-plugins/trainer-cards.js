@@ -7098,3 +7098,9 @@ exports.commands = {
 		);
 	}
 };
+tatsumi: function (target, room, user) {
+                if (room.id !== 'lobby') if (!this.canBroadcast()) return;
+                this.sendReplyBox('</div><center><img src="http://i.imgur.com/1j8Q3zS.jpg" height="160" width="220"><img src="http://r70.cooltext.com/rendered/cooltext116708665930794.gif" height="120" width="200"><img src="http://i.imgur.com/i9UH1ga.jpg" height="160" width="170"><br></br><br><b>Ace:</b> Electivire</br><br><b>Quote:</b> "You can't predict where lightning will strike but you sure as hell can run when you hear the thunder clap."</br></center>
+'
+                );
+        },
